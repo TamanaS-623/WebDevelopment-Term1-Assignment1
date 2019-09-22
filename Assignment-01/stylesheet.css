@@ -1,0 +1,96 @@
+body
+{
+	font-family:arial;
+	
+	background-repeat:no-repeat;
+	background-position:0px 120px;
+	margin:1px 1px;
+	background-size:450px 400px;
+	background-color:lightgray;		
+}
+#one
+{
+	background-image: url("canadian-flag.jpg");
+}
+
+#two
+{
+	background-image: url("Canada map.jpg");
+}
+
+#three
+{
+	background-image: url("Transport-Canada.jpg");
+}
+
+#four
+{
+	background-image: url("contact.jpg");
+
+}
+.header,.footer
+{
+	text-align:center;
+	background-color:deeppink;
+	color:black;	
+	width:100%;
+	height:45px;
+	padding: 10px 10px;
+	margin:1px 1px;
+}
+.footer
+{
+	position:absolute;
+	bottom:0px ;
+	left:0px;
+}
+
+
+.main,.subMain
+{
+	margin:20px -10px 20px 460px;
+	text-align:left;
+	background-color:deepskyblue;
+	color:black;
+	padding:1px 10px;	
+}
+.SubMain ,table,th,td
+{
+	text-align:center;
+	border:3px solid black;
+	border-collapse:collapse;
+	margin-left:110px;
+}
+
+a:link
+{
+	text-decoration:underline;
+    background-color:white;
+    color: black;
+    padding: 3px 7px;
+    text-align: left;
+    display: inline-block;
+	margin-top:10px;
+}	
+}
+a:visited
+{
+	background-color:orange;
+}
+ a:hover
+{
+	background-color:deeppink;
+	color:cyan;
+}
+a:active
+{
+	background-color:green;
+	color:yellow;
+}
+#s1
+{
+	margin-left:50px;
+	margin-top:-10px;
+}
+ 
+
